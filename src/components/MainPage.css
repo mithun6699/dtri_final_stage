@@ -1,0 +1,57 @@
+.mainpage {
+  background: url("../images/23170.jpg") center center/cover no-repeat;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+.mainpage__titile {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  padding-top: 100px;
+}
+.mainpage__info {
+  color: white;
+  /* font-family: fantasy; */
+}
+.mainpage__info > p {
+  padding: 30px;
+  font-size: 22px;
+  text-align: left;
+}
+.mainpage__icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.mainpage__info > .mainpage__icons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+.mainpage__info > .mainpage__icons > .linkedin:hover {
+  cursor: pointer;
+}
+.mainpage__info > .mainpage__icons > .facebook:hover {
+  cursor: pointer;
+}
+.mainpage__icons > .MuiSvgIcon-root {
+  font-size: 60px;
+}
+.linkedin {
+  color: #1c77b5;
+}
+.mainpage__icons > .facebook {
+  color: #4867aa;
+}
+.expandmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
